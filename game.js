@@ -7,7 +7,7 @@ function loop() {
         ctx.fillStyle = 'red';
         ctx.beginPath();
         ctx.arc(bombs[i].x, bombs[i].y, 100, 0, Math.PI * 2);
-        ctx.fillPath();
+        ctx.fill();
     }
     // draw cursor
     ctx.fillRect(cursor.x, cursor.y, 10, 10);
